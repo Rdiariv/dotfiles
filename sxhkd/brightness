@@ -1,0 +1,14 @@
+#!/bin/bash
+# El comando brightnessctl solo puede ser usado por root
+# Creo un script como root y modifico con visudo para que
+# lo pueda usar mi usuario sin contraseña
+
+VAR=$1
+
+if (($VAR > 0))
+then
+	brightnessctl set 4%+
+else
+	brightnessctl set 4%- 
+fi
+
