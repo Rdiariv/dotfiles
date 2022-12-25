@@ -58,7 +58,7 @@ label-focused-underline= ${colors.adapta-cyan}
 label-focused-foreground = ${colors.adapta-cyan}
 label-focused-padding = 2
 
-label-occupied = %index%
+label-occupied = %icon%
 label-occupied-padding = 2
 label-occupied-foreground = ${colors.adapta-green}
 
@@ -66,7 +66,7 @@ label-occupied-foreground = ${colors.adapta-green}
 label-urgent = %icon%!
 label-urgent-background = ${colors.adapta-red}
 label-urgent-padding = 2
-label-empty = %index%
+label-empty = %icon%
 label-empty-foreground = ${colors.adapta-grey}
 label-empty-padding = 2
 
