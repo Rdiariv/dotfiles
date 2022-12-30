@@ -124,7 +124,7 @@ super + {Left,Down,Up,Right}
 
 #Volume
 ####################################
-super + F1
+XF86AudioMute
 	amixer -D pulse set Master 1+ toggle
 
 XF86AudioLowerVolume

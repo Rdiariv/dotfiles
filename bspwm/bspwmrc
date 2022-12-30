@@ -32,8 +32,11 @@ pkill conky
 picom -f --daemon --config "${HOME}/.config/picom/picom.conf" &
 
 #miniaplicación para el wifi
-pkill nm-applet
-nm-applet
+pkill nm-applet &
+nm-applet &
+
+#evita problema con aplicaciones java
+~/.config/bspwm/java/java.sh
 
 
 #Notificaciones dunst
