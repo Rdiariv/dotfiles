@@ -40,6 +40,6 @@ nm-applet &
 
 
 #Notificaciones dunst
-#pkill dunst &
-#dunst &
+pkill dunst &
+dunst &
 

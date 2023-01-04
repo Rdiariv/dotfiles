@@ -43,7 +43,7 @@ locale = es_ES.UTF-8
 ;==========Module settings===============
 modules-left = bspwm
 modules-center = date
-modules-right = volume cpu-graph temperature eth wlan battery
+modules-right = volume cpu-graph temperature eth wlan xkeyboard battery
 ;========================================
 
 tray-position = right
@@ -275,5 +275,23 @@ content-underline = ${colors.adapta-cyan}
 content-foreground = ${colors.fg}
 click-left = pmenu_1
 click-right = pmenu_1
+
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 =  ﰵ 
+
+format-prefix = "     "  
+format-prefix-foreground = ${colors.adapta-gray}
+format-prefix-underline = ${colors.adapta-cyan}
+
+label-layout = %layout%
+label-layout-underline = ${colors.adapta-cyan}
+
+label-indicator-padding = 5
+;label-indicator-margin = 5
+label-indicator = "  ﰵ  "
+label-indicator-background = ${colors.adapta-red}
+label-indicator-underline = ${colors.adapta-red}
 
 ; vim:ft=dosini

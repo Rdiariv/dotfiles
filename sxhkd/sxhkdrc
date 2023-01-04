@@ -142,6 +142,17 @@ XF86MonBrightnessDown
 XF86MonBrightnessUp
 	sudo ~/.config/sxhkd/brightness 1
 
+
+
+#keyboard layout
+super + alt + e
+	setxkbmap -layout es
+
+super + alt + u
+	setxkbmap -layout us -variant intl
+
+
+
 #Programs
 ##########################
 
